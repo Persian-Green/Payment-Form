@@ -14,7 +14,7 @@ Sub Printing()
     ' تنظيمات چاپ
     With ws.PageSetup
         .Orientation = xlLandscape ' جهت صفحه
-        .PaperSize = xlPaperA4 ' اندازه کاغذ
+        .PaperSize = xlPaperA5 ' اندازه کاغذ
         .PrintTitleRows = "$2:$12" ' رديف‌هايي که در همه صفحات تکرار مي‌شوند
         .FirstPageNumber = xlAutomatic ' شماره صفحه شروع
         .CenterFooter = "Page &P of &N" ' مقدار فوتر (شماره صفحه)
